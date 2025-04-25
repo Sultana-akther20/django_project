@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here.
-def index(request):
-    return HttpResponse("about us page")
+def about_me(request):
+    return HttpResponse("this would be the about page")
